@@ -25,3 +25,8 @@ Route::get('/mahasiswa', function () {
 Route::get('/lainlain', function () {
     return view('lain_lainnya.lain');
 });
+
+//admin
+Route::get('/admin', function () {
+    return view('admin.mahasiswa.index');
+});
