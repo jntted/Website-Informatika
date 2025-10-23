@@ -40,7 +40,7 @@
                     <svg class="bi" aria-hidden="true">
                       <use xlink:href="#file-earmark"></use>
                     </svg>
-                    Orders
+                    Mahasiswa
                   </a>
                 </li>
                 <li class="nav-item">
@@ -48,7 +48,7 @@
                     <svg class="bi" aria-hidden="true">
                       <use xlink:href="#cart"></use>
                     </svg>
-                    Products
+                    Pegawai
                   </a>
                 </li>
               <hr class="my-3" />
