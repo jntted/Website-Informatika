@@ -29,7 +29,7 @@ Route::get('/lainlain', function () {
 
 //admin
 Route::get('/admin', function () {
-    return view('admin.mahasiswa.index');
+    return view('admin.beranda.index');
 });
 
 //pegawai
