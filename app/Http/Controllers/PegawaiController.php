@@ -83,6 +83,24 @@ class PegawaiController extends Controller
         //alihkan ke halaman utama
         return redirect('/pegawai')-> with('success', 'Data berhasil dihapus');
     }
-    // pdf
 
+    // pencarian 
+    public function pencarian(Request $request){
+
+        // ambil keyword
+        $search = $request->input('txt_cari');
+
+        // lakukan query ke database
+        $pegawai = DB::table('pegawai')->when(
+            $search, function ($query, $search){
+                $query->where('pegawai_nama','like','%'.$search.'%')
+                ->orWhere('pegawai_jabatan','like','%'.$search.'%');
+            
+        })->paginate(10);
+        // mengembalikan ke view
+        return view ('admin.pegawai.cari',['pegawai'=> $pegawai]);
+    }
+
+    // pdf
+    
 }

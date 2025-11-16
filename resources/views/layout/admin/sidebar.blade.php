@@ -27,7 +27,7 @@
                   <a
                     class="nav-link d-flex align-items-center gap-2 active"
                     aria-current="page"
-                    href="#"
+                    href="/admin"
                   >
                     <svg class="bi" aria-hidden="true">
                       <use xlink:href="#house-fill"></use>
@@ -36,7 +36,7 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link d-flex align-items-center gap-2" href="#">
+                  <a class="nav-link d-flex align-items-center gap-2" href="/mhs">
                     <svg class="bi" aria-hidden="true">
                       <use xlink:href="#file-earmark"></use>
                     </svg>
@@ -44,7 +44,7 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link d-flex align-items-center gap-2" href="#">
+                  <a class="nav-link d-flex align-items-center gap-2" href="/pegawai">
                     <svg class="bi" aria-hidden="true">
                       <use xlink:href="#cart"></use>
                     </svg>
@@ -54,7 +54,7 @@
               <hr class="my-3" />
               <ul class="nav flex-column mb-auto">
                 <li class="nav-item">
-                  <a class="nav-link d-flex align-items-center gap-2" href="#">
+                  <a class="nav-link d-flex align-items-center gap-2" href="/settings">
                     <svg class="bi" aria-hidden="true">
                       <use xlink:href="#gear-wide-connected"></use>
                     </svg>
@@ -62,7 +62,7 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link d-flex align-items-center gap-2" href="#">
+                  <a class="nav-link d-flex align-items-center gap-2" href="/logout">
                     <svg class="bi" aria-hidden="true">
                       <use xlink:href="#door-closed"></use>
                     </svg>

@@ -11,16 +11,16 @@
 
 <body>
     <div id="header">
-        @include('layout.header')
+        @include('layout.front.header')
     
     <div id="site_content">
-        @include('layout.sidebar')
+        @include('layout.front.sidebar')
 
     <div class="content">
         @yield('content')   </div>
     
     <div id="content_footer">
-        @include('layout.footer')
+        @include('layout.front.footer')
 
     </div>
 </body>

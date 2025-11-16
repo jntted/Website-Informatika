@@ -17,6 +17,7 @@
 
     <a href = "/pegawai/tambah">
   <button class="btn btn-primary" type="button">Tambah</button>
+  <br>
 </a>
 
 

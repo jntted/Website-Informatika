@@ -1,4 +1,4 @@
-@extends('layout.layout')
+@extends('layout.front.layout')
 @php $activePage = 'lainlain'; @endphp
 @section('content')
 <div id="content">
