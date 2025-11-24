@@ -6,36 +6,37 @@ use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\FileController;
 use App\Http\Controllers\AuthController;
 
+// fontend
 Route::get('/', function () {
     return view('beranda.beranda');
 });
-
+Route::get('/beranda', function () {
+    return view('beranda.beranda');
+});
 Route::get('/profil', function () {
     return view('profil.profil');
 });
-
 Route::get('/pendidikan', function () {
     return view('pendidikan.pendidikan');
 });
-
 Route::get('/riset', function () {
     return view('riset.riset');
 });
-
 Route::get('/mahasiswa', function () {
     return view('mahasiswa.mhs');
 });
-
 Route::get('/lainlain', function () {
     return view('lain_lainnya.lain');
 });
 
+
+
 //user 
 Route::get('/daftar',[AuthController::class, 'registrationForm']);
 Route::post('/daftar',[AuthController::class, 'register']);
-Route::post('/login',[AuthController::class, 'loginForm']);
+Route::get('/login',[AuthController::class, 'loginForm']);
 Route::post('/login',[AuthController::class, 'login']);
-Route::post('/logout',[AuthController::class, 'logout']);
+Route::get('/logout',[AuthController::class, 'logout']);
 
 //admin
 Route::get('/admin', function () {

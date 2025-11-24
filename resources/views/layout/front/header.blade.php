@@ -9,7 +9,7 @@
       <div id="menubar">
         <ul id="menu">
   <li class="{{ $activePage === 'beranda' ? 'selected' : '' }}">
-    <a href="/">Beranda</a>
+    <a href="/beranda">Beranda</a>
   </li>
   <li class="{{ $activePage === 'profil' ? 'selected' : '' }}">
     <a href="/profil">Profil</a>
