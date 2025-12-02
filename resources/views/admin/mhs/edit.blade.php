@@ -47,6 +47,13 @@
       value="{{$mhs->mhs_alamat}}" required="required">
     </div>
   </div>
+
+  @if($mhs->mhs_foto)
+    <img src="{{ asset('storage/'.$mhs->mhs_foto) }}" width="80" class="mb-3">
+@endif
+
+<input type="file" name="Foto" class="form-control">
+
 <button type="submit" class="btn btn-primary">update</button>
 </form>
 @endsection

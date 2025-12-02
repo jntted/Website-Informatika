@@ -43,6 +43,13 @@
       <input type="text" class="form-control" id="Alamat" name="Alamat">
     </div>
   </div>
+
+  <form action="/mhs/store" method="POST" enctype="multipart/form-data">
+@csrf
+
+Foto:
+<input type="file" name="Foto" class="form-control">
+
 <button type="submit" class="btn btn-primary">simpan</button>
 </form>
 @endsection
